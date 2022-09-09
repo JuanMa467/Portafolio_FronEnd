@@ -1,0 +1,8 @@
+*{
+ width: 90%;
+ margin: auto;
+ /* overflow-y: hidden;*/   
+}
+.titulo{
+ color: rgb(246, 31, 31);
+}
