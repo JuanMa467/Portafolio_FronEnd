@@ -1,8 +1,75 @@
 *{
- width: 90%;
- margin: auto;
+  margin: auto;
+  color: #ffffff;
  /* overflow-y: hidden;*/   
 }
+.modal{
+--bs-modal-bg:rgb(0, 0, 0);
+}
+section{
+  background-color: #000000;
+}
 .titulo{
- color: rgb(246, 31, 31);
+ color: rgb(134, 218, 241);
+}
+.banner{
+  width: 100%;
+  height: 500px;
+  border:  #000000;
+  margin: auto;
+  background-size: 100% 100%;
+  animation: banner 10s infinite;
+}
+input#staticEmail {
+  color: #ffff;
+}
+@keyframes banner{
+  0%, 30%{
+    background-image: url(../img/Blood.gif);
+    opacity: 0,1;
+  }
+  31%, 34%{
+    opacity: 0,01;
+  }
+  35%, 65%{
+    background-image: url(../img/412a0a93-b0ce-417d-89ab-3884bc76585e.jpg);
+    opacity: 0,1;
+  }
+  66%, 69%{
+    opacity: 0,01;
+  }
+  70%, 100%{
+    background-image: url(../img/Darkness\,\ Alena\ Aenami.png);
+    opacity: 0,1;
+  }
+}
+
+.w-75{
+margin-top: 1rem;
+}
+.navbar.navbar-expand-lg.bg-light{
+  background: rgb(0,219,206);
+  background: -moz-radial-gradient(circle, rgba(0,219,206,0.8099614845938375) 9%, rgba(0,6,52,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,219,206,0.8099614845938375) 9%, rgba(0,6,52,1) 100%);
+  background: radial-gradient(circle, rgba(0,219,206,0.8099614845938375) 9%, rgba(0,6,52,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00dbce",endColorstr="#000634",GradientType=1);
+}
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-github.fa-2xl,
+i.fa-solid.fa-user.fa-2xl
+{
+  color: #ffffff;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+  color:hotpink;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+  color: #3d506a;
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+  color: #0022fd;
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color:transparent;
 }
