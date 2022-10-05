@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b9c4e4faa3.js" crossorigin="anonymous"></script>
-     <!-- Estilos -->
-     <link rel="stylesheet" type="text/css" href="assets/css/styles.css"> 
-     <!--Fonts-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Rubik+Dirt&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b9c4e4faa3.js" crossorigin="anonymous"></script>
+  <!-- Estilos -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css"> 
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Playfair+Display+SC&family=Rubik+Dirt&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="assets/img/APLogo-20-20.png" alt="" width="20%" height="">
-    </a>
+    <img src="assets/img/APLogo-20-20.png" alt="" width="10%" height="20%">
     <ul class="list-group list-group-horizontal">
     <li class="list-group-item"><a href="https://www.instagram.com/atencio_juanma/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" type="button"></i></a></li>
     <li class="list-group-item"><i class="fa-brands fa-github fa-2xl"></i></li>
@@ -72,10 +68,16 @@
     </div>
  </div>
 </nav>
-<!-- banner-->
-<div class="banner"> </div>
 
- <section class="acercaDeMi">
+
+<!-- banner-->
+<div class="banner text-center">
+ <h1 class="titulo"style="font-size:4rem">
+  Bienvenido a mi Portafolio
+ </h1>
+</div>
+
+<section class="acercaDeMi">
   <div class="container text-center">
     <div class="row">
       <div class="col-3">
@@ -103,9 +105,9 @@
       </div>
     </div>
   </div>
- </section>
-
- <section class="Estudios">
+</section>
+  <br>
+<section class="Estudios text-center">
   <h4 class="titulo1"> Estudios</h4><br>
   <p>Cursando secundario 5º , voy a una Escuela Tecnica especializada en  Electronica. Asi que tengo contraturnos.</p><br>
   <p>Curso de peluqueria:
@@ -113,20 +115,86 @@
   </p>
 
   <img src="/assets/img/foto-de-pel.jpeg" class="foto-pel w-25">
-  </section>
-
-
-  <section class="Experiencia">
-  <h4 class="titulo2"> Experiencia laboral</h4><br>
+</section>
+<br>
+<section class="Experiencia text-center">
+  <h4 class="titulo1"> Experiencia laboral</h4><br>
   <p>Peluquero:</p><br> 
   <p>Le cortaba el pelo a familiares,amigos,etc. El tiempo que demandaba la escuela no me dejo seguir.
      
-  </p>
-  </section>
+  </p><br>
+</section>
+  
+<section class="skills text-center" style="font-size:2rem;"> 
+  <div class="container-fluid">
+    <div class="row">
+      <h2 class="titulo1">Habilidades fuertes y blandas</h2>
+      <div class="col-3">
+        <div class="progress-circle-container">
+          <div class="progress-circle progress-27"><span>27</span></div>
+        </div>
+        <p> Ingles</p>
+      </div>
+      <div class="col-3">
+        <div class="progress-circle-container">
+          <div class="progress-circle progress-60"><span>60</span></div>
+        </div>
+        <p> Electronica </p>
+      </div>
+      <div class="col-3">
+        <div class="progress-circle-container">
+          <div class="progress-circle progress-40"><span>40</span></div>
+        </div>
+        <p>JavaScript</p>
+      </div>
+      <div class="col-3">
+        <div class="progress-circle-container">
+          <div class="progress-circle progress-40"><span>40</span></div>
+        </div>
+        <p>Html</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
 
- 
+<section class="proyectos text-center">
+  <h2 class="titulo">
+    Proyectos
+  </h2>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      Portafolio
+      <img src="assets/img/goku.jpg" class="d-block w-25" alt="Portafolio">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/paisaje3.jpg" class="d-block w-25" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/autos3.jpg" class="d-block w-25" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<footer class="text-center">
+  <p>?)</p>
 
-
+</footer>
 <!-- Modal Audio-->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -147,6 +215,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
     <!-- JavaScript Bundle with Popper -->
